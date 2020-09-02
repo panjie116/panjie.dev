@@ -4,6 +4,9 @@
 /*import variables .css files*/
 @import url(./partials/variables.css);
 
+/*global*/
+@import url(./partials/_global.css)
+
 /*nav start*/
 .header-area .main-menu .navbar .navbar-brand{
 	padding: 0 2rem 0 5rem;
@@ -35,3 +38,38 @@
 }
 /*nav end*/
 
+/* banner css start*/
+
+.site-main .site-banner{
+	/*background-image:url(./img/mybanner.jpg);*/
+}
+
+.site-main .site-banner .site-title h3{
+	padding-top: 35%;
+	font-weight: 500; 
+} 
+
+.site-main .site-banner .site-title h3::after{
+	content: "";
+	height: 2px;
+	width: 16vw;
+	background: black;
+	display: inline-block;
+	margin-left: 5%;
+	transform:translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+	font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+	font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image img{
+	padding: 7rem 0;
+	width: 90rem;
+}
+
+/* banner css end*/
