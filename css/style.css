@@ -96,4 +96,53 @@
 	font :normal bold 35px/60px var(--roboto);
 	text-align: center;
 }
+
+
+.site-main .progress{
+	position: relative;
+}
+
+.progress .color1,
+.progress .color1 .bar-width{
+  background: #2d7da4;
+}
+
+.progress .color2,
+.progress .color2 .bar-width{
+  background: #6aa42f;
+}
+
+.progress .color3,
+.progress .color3 .bar-width{
+  background: #ffcc33;
+}
+
+.progress .color4,
+.progress .color4 .bar-width{
+  background: #db3615;
+}
+.skills-section {
+	font-size:12px;
+	padding:40px 40px 20px 40px;
+}
+
+.progress-wrap{
+  position: relative;
+}
+
+.progress span{
+  position: relative;
+}
+
+.progress span:before{
+  content: " ";
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-width: 8px 5px;
+  border-style: solid;
+  bottom: -15px;
+  right: 8px;
+}
+
 /*skills page end*/
