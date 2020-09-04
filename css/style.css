@@ -130,19 +130,6 @@
   position: relative;
 }
 
-.progress span{
-  position: relative;
-}
 
-.progress span:before{
-  content: " ";
-  position: absolute;
-  width: auto;
-  height: auto;
-  border-width: 8px 5px;
-  border-style: solid;
-  bottom: -15px;
-  right: 8px;
-}
 
 /*skills page end*/
