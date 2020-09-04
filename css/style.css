@@ -90,3 +90,10 @@
 }
 
 /* end about area */
+
+/*skills page start*/
+.site-main .skills-section .skills-title h2{
+	font :normal bold 35px/60px var(--roboto);
+	text-align: center;
+}
+/*skills page end*/
