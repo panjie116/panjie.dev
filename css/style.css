@@ -41,7 +41,7 @@
 /* banner css start*/
 
 .site-main .site-banner{
-	/*background-image:url(./img/mybanner.jpg);*/
+	background: var(--backcolor);
 }
 
 .site-main .site-banner .site-title h3{
@@ -77,6 +77,7 @@
 
 .site-main .about-area{
 	padding: 8rem 5rem;
+	
 }
 
 .site-main .about-area .about-title h2 > span{
@@ -95,6 +96,9 @@
 .site-main .skills-section .skills-title h2{
 	font :normal bold 35px/60px var(--roboto);
 	text-align: center;
+}
+.site-main .skills-section{
+	background: var(--backcolor);
 }
 
 
