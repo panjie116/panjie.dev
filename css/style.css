@@ -123,8 +123,20 @@
 
 .progress .color4,
 .progress .color4 .bar-width{
-  background: #db3615;
+  background: #ec5453;
 }
+
+.progress .color5,
+.progress .color5 .bar-width{
+  background: #2fa499;
+}
+
+.progress .color6,
+.progress .color6 .bar-width{
+  background: #a84cb8;
+  }
+
+
 .skills-section {
 	font-size:12px;
 	padding:40px 40px 20px 40px;
