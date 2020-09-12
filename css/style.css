@@ -8,10 +8,6 @@
 @import url(./partials/_global.css)
 
 /*nav start*/
-.header-area .main-menu .navbar .navbar-brand{
-	padding: 0 2rem 0 5rem;
-}
-
 .header-area .main-menu .navbar{
 	padding: 1rem 20rem;
 }
@@ -45,7 +41,7 @@
 }
 
 .site-main .site-banner .site-title h3{
-	padding-top: 35%;
+	padding-top: 20%;
 	font-weight: 500; 
 } 
 
@@ -71,12 +67,24 @@
 	padding: 7rem 0;
 	width: 90rem; 
 }
+
+.site-main .site-banner .list-social li {
+  float: left;
+  margin-right: 20px;
+}
+
+.site-main .site-banner .list-social li i {
+  font-size: 30px;
+  padding-right: 0.5rem;
+  padding-top: 2rem;
+}
 /* banner css end*/
 
 /* start about area */
 
 .site-main .about-area{
-	padding: 8rem 5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	
 }
 
