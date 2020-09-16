@@ -1,51 +1,62 @@
 
 
-
-/* viewpoint = 340px or less than that*/
-@media only screen and(max-width: 340px){
-	.header-area .main-menu .navbar, .header-area .main-menu .navbar .navbar-brand,
-	{
-		padding: 2%;
-		margin: 0;
+@media all  and (max-width: 500px){
+	.site-main .site-banner .site-title h4{
+		font-size: 1rem;
+		text-transform: capitalize !important; 
 	}
 
+	.site-main .site-banner .site-title h3{
+		font-size: 1.2rem;
+		text-transform: capitalize !important;
+	}
 
 	.site-main .site-banner .site-title h1{
-		font-size: 21px;
+		font-size: 2rem;
+		text-transform: capitalize !important;
 	}
-	.site-main .about-area{
-	padding-top: 1rem;
+
+	.site-main .site-banner{
+		padding-top: 2rem;
+		padding-left: 0;
+		padding-bottom: 7rem;
+		background: url(/img/back.jpg) no-repeat !important;
+	}
+
+	.site-main .skills-section h3{
+		font-size: 1rem;
+	}
+
+	footer.footer-area{
+		padding: 1.5rem 0;
+	
+	}
+
+	footer.footer-area .social a> i{
+		font-size: 20px;
+		padding: 1rem; 
+	}
+
+	footer.footer-area h5{
+		text-transform: capitalize !important;
+		font-family: roboto !important; 
+	}
+
+	footer.footer-area .fa-whatsapp{
+		color:#33cc33;
+	}
+
+	footer.footer-area .fa-instagram{
+		color: red;
+	}
+
+	footer.footer-area .fa-twitter{
+		color: #00ccff;
+	}
+
+
 	
 }
 
-}
 
 
-/* viewpoint = 340px or less than that*/
-@media only screen and(max-width: 792px){
-	.site-main .about-area .about-title h2 > span{
-		font-size: 20px;
-		letter-spacing: 10px;
-	}
-
-	.site-main .about-area .about-title p{
-		padding: 0%;
-	}
-
-}
-
-
-/* viewpoint = 1910px or less than that*/
-@media only screen and(max-width: 1910px){
-	.header-area .main-menu .navbar{
-		padding: 1rem;
-	}
-
-	.container{
-		max-width: 90%;
-	}
-
-	.site-main .about-area{
-		padding: 3% 4%;
-	} 
-}
