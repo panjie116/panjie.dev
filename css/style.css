@@ -37,7 +37,7 @@
 /* banner css start*/
 
 .site-main .site-banner{
-	background: url(/img/banner.jpg) no-repeat !important;
+	background: var(--backcolor) !important;
 	background-position: 0% 50%;
 	padding-bottom: 7rem;
 	padding-left: 7rem;
