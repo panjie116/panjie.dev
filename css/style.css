@@ -5,11 +5,11 @@
 @import url(./partials/variables.css);
 
 /*global*/
-@import url(./partials/_global.css)
+@import url(./partials/_global.css);
 
 /*nav start*/
 .header-area .main-menu .navbar{
-	padding: 1rem 20rem;
+	padding-top: 1rem;
 }
 
 .header-area .main-menu .nav-item .nav-link{
@@ -82,6 +82,21 @@
   padding-right: 0.5rem;
   padding-top: 2rem;
 }
+
+.site-main .site-banner .list-social .fa-twitter{
+	color: #00ccff;
+}
+.site-main .site-banner .list-social .fa-whatsapp{
+	color:#33cc33;
+}
+
+.site-main .site-banner .list-social .fa-instagram{
+	color: red;
+}
+
+.site-main .site-banner .list-social .fa-github{
+	color: black;
+}
 /* banner css end*/
 
 /* start about area */
@@ -152,7 +167,6 @@
 .skills-section {
 	font-size:12px;
 	padding:40px 40px 20px 40px;
-	padding-bottom: 10rem;
 }
 
 .progress-wrap{
