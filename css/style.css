@@ -43,6 +43,10 @@
 	padding-left: 7rem;
 }
 
+.site-main .site-banner .site-title{
+	position: ;
+}
+
 
 .site-main .site-banner .site-title h3{
 	padding-top: 20%;
@@ -162,7 +166,12 @@
 .progress .color6 .bar-width{
   background: #a84cb8;
   }
-
+  
+.progress .color7,
+.progress .color7 .bar-width{
+	background: #ff33cc;
+}
+  
 
 .skills-section {
 	font-size:12px;
