@@ -46,11 +46,20 @@
 		background: var(--backcolor);
 	}
 
-}
-.site-main .skills-section{
-	background: var(--backcolor);
-	padding-bottom: 6rem;
-}
+	}
+	.site-main .skills-section{
+		background: var(--backcolor);
+		padding-bottom: 6rem;
+	}
+
+	.site-main .about-area .about-title .paragraph > p{
+		text-align: center;
+	}
+
+	
+	.site-main .about-area .about-title .paragraph > button{
+		padding-right: 10px;
+	}
 
 	.site-main .skills-section h3{
 		font-size: 1.2rem;
