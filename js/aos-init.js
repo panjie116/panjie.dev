@@ -1,1 +1,1 @@
-AOS.init({duration: 1800,once: true});
+AOS.init({duration: 180,once: true});
