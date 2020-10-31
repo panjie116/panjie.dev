@@ -19,7 +19,7 @@
 	color: var(--title-color);
 }
 
-.header-area .main-menu .navbar-nav .active a{
+.header-area .main-menu .navbar-nav .active li a{
 	background: var(--gradient-color);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -109,6 +109,11 @@
 	font-size:12px;
 	padding:40px 40px 20px 40px;
 	
+}
+
+.site-main .about-area .about-title h2{
+	align-content: center;
+	font: normal bold 35px/60px var(--roboto);
 }
 
 .site-main .about-area .about-title h2 > span{
