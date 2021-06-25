@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/partials/_global.css">
 	<link rel="stylesheet" type="text/css" href="./css/fontawesome\css\all.css">
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="./css/aos.css">
+	<link href="./vendor/aos/aos.css" rel="stylesheet">
 	
 </head>
 <body>
@@ -63,11 +63,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-12 site-title"> 
-						<div class="site-content">
+						<div class="site-content" data-aos="zoom-in" data-aos-delay="300">
 							<h3 class="title-text text-uppercase " class="animated slideInLeft">Hie</h3>
 							<h1 class="title-text text-uppercase"> I'm Panjie</h1>
 							<h4 class="title-text text-uppercase">Developer || Aspiring Runner</h4>
 						</div>
+						
+						<div data-aos="fade-right" data-aos-delay="300">
+						
 						<ul class="list-unstyled list-social">
 				          <li><a href="https://facebook.com/panjie.msowoya" target="blank"><i class="fab fa-facebook"></i></a></li>
 				          <li><a href="https://twitter.com/panjie116" target="blank"><i class="fab fa-twitter"></i></a></li>
@@ -75,6 +78,7 @@
 				          <li><a href="https://github.com/panjie116" target="blank"><i class="fab fa-github"></i></a></li>
 				          <li><a href="https://wa.me/+265882795006" target="blank"><i class="fab fa-whatsapp"></i></a></li>
 				        </ul>
+					</div>
 					</div>
 				</div>
 			</div>
@@ -87,7 +91,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-12">
-						<div class="about-image">
+						<div class="about-image" data-aos="zoom-in" data-aos-delay="300">
 							<img src="./img/about-image.jpg" alt="about image" class="img-fluid">
 						</div>
 					</div>
@@ -118,7 +122,7 @@
 
 		<!--Skills page start -->
 		<section class="skills-section mx-auto" style="width: 100%" id="skills">
-			<div class="container-fluid" >
+			<div class="container-fluid" data-aos="fade-up" >
 				<div class="col-lg-12 col-md-12 skills-title">
 						<div class="text-uppercase">
 							<h2>My Skills</h2>
@@ -195,6 +199,85 @@
 		<!--Skills page end -->	
 
 
+
+		<!---contact section start-->
+
+		<!--Section: Contact v.2-->
+				<section class="contact-section mx-auto" style="width: 70%" id="skills">
+
+					<!--Section heading-->
+					<h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+		
+					<div class="row" data-aos="fade-right" data-aos-delay="300">
+
+						<!--Grid column-->
+						<div class="col-md-10 mb-md-0 mb-5">
+							<form id="contact-form" data-netlify="true" name="contact-form" action="#" method="POST">
+
+								<!--Grid row-->
+								<div class="row">
+
+									<!--Grid column-->
+									<div class="col-md-6">
+										<div class="md-form mb-0">
+											<input type="text" id="name" name="name" class="form-control">
+											<label for="name" class="">Your name</label>
+										</div>
+									</div>
+									<!--Grid column-->
+
+									<!--Grid column-->
+									<div class="col-md-6">
+										<div class="md-form mb-0">
+											<input type="text" id="email" name="email" class="form-control">
+											<label for="email" class="">Your email</label>
+										</div>
+									</div>
+									<!--Grid column-->
+
+								</div>
+								<!--Grid row-->
+
+								<!--Grid row-->
+								<div class="row">
+									<div class="col-md-12">
+										<div class="md-form mb-0">
+											<input type="text" id="subject" name="subject" class="form-control">
+											<label for="subject" class="">Subject</label>
+										</div>
+									</div>
+								</div>
+								<!--Grid row-->
+
+								<!--Grid row-->
+								<div class="row">
+
+									<!--Grid column-->
+									<div class="col-md-12">
+
+										<div class="md-form">
+											<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+											<label for="message">Your message</label>
+										</div>
+
+									</div>
+								</div>
+								<!--Grid row-->
+
+							</form>
+
+							<div class="text-center text-md-left">
+								<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+							</div>
+							<div class="status"></div>
+						</div>
+						<!--Grid column-->
+
+					</div>
+
+				</section>
+<!--end -->
+
 	</main>
 
 <!--main area end--->
@@ -219,8 +302,19 @@
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js" ></script>
 <script src="./js/main.js"></script>
-<script src="./js/aos.js"></script>
+<script src="./vendor/aos/aos.js"></script>
 <script src="./js/nav-jquery.js"></script>
+
+
+<script>
+	$(function() {
+  AOS.init();
+});
+
+$(window).on('load', function() {
+  AOS.refresh();
+});
+</script>
 
 <script>
 	$(".navbar-collapse a").click(function(){

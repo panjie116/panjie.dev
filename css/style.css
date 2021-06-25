@@ -128,6 +128,13 @@
 
 /* end about area */
 
+.site-main .contact-section h2{
+	font :normal bold 35px/60px var(--roboto);
+	text-align: center;
+}
+
+
+
 /*skills page start*/
 .site-main .skills-section .skills-title h2{
 	font :normal bold 35px/60px var(--roboto);
@@ -193,6 +200,7 @@
 
 footer.footer-area{
 	padding: 5rem 0;
+	background: var(--backcolor);
 
 }
 
